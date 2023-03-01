@@ -1,0 +1,32 @@
+---
+artist: An Artist
+album: An Album
+tracks:
+  - name: Track One
+    offset: "0:00"
+  - name: Track Two
+    offset: "3:36"
+  - name: Track Three
+    offset: "7:24"
+  - name: Track Four
+    offset: "11:31"
+  - name: Track Five
+    offset: "15:05"
+  - name: Track Six
+    offset: "18:33"
+  - name: Track Seven
+    offset: "22:19"
+  - name: Track Eight
+    offset: "24:57"
+  - name: Track Nine
+    offset: "28:16"
+  - name: Track Ten
+    offset: "33:00"
+  - name: Track Eleven
+    offset: "36:29"
+  - name: Track Twelve
+    offset: "40:37"
+  - name: Track Thirteen
+    offset: "44:19"
+  - name: Track Fourteen
+    offset: "48:37"
