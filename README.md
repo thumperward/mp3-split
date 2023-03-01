@@ -56,6 +56,7 @@ Setting the `LOGLEVEL=DEBUG` environment variable will show debug output.
 # TODO
 
 -   Remove the external dependency on the ffmpeg binary.
+-   Add tests.
 
 # Credits
 
