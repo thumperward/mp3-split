@@ -57,6 +57,7 @@ Setting the `LOGLEVEL=DEBUG` environment variable will show debug output.
 
 -   Remove the external dependency on the ffmpeg binary.
 -   Add tests.
+-   Genericise to work on non-MP3 files where possible.
 
 # Credits
 
