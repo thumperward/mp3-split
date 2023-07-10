@@ -1,0 +1,20 @@
+{
+	"name": "devcontainer",
+	"image": "mcr.microsoft.com/devcontainers/base:debian11",
+	"features": {
+		"ghcr.io/devcontainers/features/python": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bungcip.better-toml",
+				"ms-azuretools.vscode-docker",
+				"sourcery.sourcery",
+				"redhat.vscode-yaml",
+				"ms-python.python",
+				"ms-python.pylint"
+			]
+		}
+	},
+	"postAttachCommand": "git config --global --add safe.directory /workspaces/mp3-split && sudo apt update && sudo apt install -y mp3info ffmpeg && pipx install poetry && pipx install pre-commit && pipx install detect-secrets && poetry install && pre-commit install"
+}

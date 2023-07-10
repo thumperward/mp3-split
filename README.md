@@ -3,7 +3,7 @@
 `mp3-split` is a command-line utility that splits a long MP3 file into smaller
 files and then tags them with the track name and track number.
 
-# Development
+## Development
 
 -   Python 3.7+
 -   PyYAML
@@ -11,7 +11,7 @@ files and then tags them with the track name and track number.
 
 `ffmpeg` is an external dependency and needs to be present on your path.
 
-# Usage
+## Usage
 
 Usage: `mp3-split` `INPUT_FILE` `CONFIG_FILE`
 
@@ -34,7 +34,7 @@ not exist.
 
 Setting the `LOGLEVEL=DEBUG` environment variable will show debug output.
 
-# Improvements
+## Improvements
 
 -   Converted to use Poetry, making the script installable.
 -   Included the track number in the filename.
@@ -53,13 +53,14 @@ Setting the `LOGLEVEL=DEBUG` environment variable will show debug output.
 -   Removed a lot of unnecessary re-computing of information already in the
     config file; only the total length needs to be computed.
 
-# TODO
+## TODO
 
--   Remove the external dependency on the ffmpeg binary.
+-   Remove the external dependency on the ffmpeg binary, such as by switching
+    to [PyAV](https://github.com/PyAV-Org/PyAV).
 -   Add tests.
 -   Genericise to work on non-MP3 files where possible.
 
-# Credits
+## Credits
 
 -   Original author: Daniel Teichman <https://github.com/danielteichman>
 -   Significant rewrite by Chris Cunningham <https://github.com/thumperward>
